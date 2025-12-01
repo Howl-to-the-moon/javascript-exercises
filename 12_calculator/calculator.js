@@ -45,23 +45,13 @@ const multiply = function(a) {
 
 const power = function(a, b) {
 
-  let total = 1;
-
-  for (let i = 0; i < b ; i++) {
-
-    total *= a;
-
-  }
-
-  return total;
+ return a ** b;
 	
 };
 
 const factorial = function(a) {
 
-  if (a === 0){
-    return 1;
-  }
+  
 
 
   let total = 1;
